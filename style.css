@@ -1,5 +1,9 @@
 * {
     background-color: bisque;
+    margin: 10px;
+    padding-left: 5px;
+    padding-top: 10px;
+    text-align:center ;
 }
 img {
     width: 400px;
@@ -18,4 +22,6 @@ a {
 
 ol, ul {
     color: #f80606;
+    text-align: left;
+    display: inline-block;
 }
