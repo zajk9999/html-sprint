@@ -4,7 +4,29 @@
     padding-left: 5px;
     padding-top: 10px;
     text-align:center ;
+    box-sizing: border-box;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #0a2b46;
+    padding: 40px;
+    border-radius: 100px;
+    border: 10px;
+    grid-template-columns:850px 850px;
+  }
+  .grid-item {
+    border: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+
+
+  }
+
+
 img {
     width: 400px;
     height: 400px;
